@@ -23,6 +23,19 @@ function SimpleForm() {
    setFormValues({ ...formValues, [name]: value });
   }
 
+  // const person = {
+  //   age: 72,
+  //   spiritAnimal: "Cheetah"
+  // }
+
+  /**
+   * dot notation -> literal string
+   * bracket notation -> variable!
+   */
+
+  // const valToUpdate = "spiritAnimal";
+  // person[valToUpdate] = "Goldfish"
+
   const submit = (evt) => {
     evt.preventDefault();
     const newPet = {
